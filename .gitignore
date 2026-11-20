@@ -1,14 +1,18 @@
+
 # Qt Creator
 .qtcreator/
 *.user
 *.user.*
+
+# IDE files
+.vscode/
 
 # Build directories
 build/
 build-*/
 Build/
 
-# CMake
+# CMake generated files
 CMakeFiles/
 CMakeCache.txt
 cmake_install.cmake
@@ -17,12 +21,29 @@ install_manifest.txt
 compile_commands.json
 
 # Compiled files
+*.d
+*.slo
+*.lo
 *.o
 *.obj
+*.gch
+*.pch
+*.ilk
+*.pdb
+*.so
+*.dylib
 *.dll
-*.exe
+*.so.*
+*.mod
+*.smod
+*.lai
+*.la
 *.a
 *.lib
+*.exe
+*.out
+*.app
+*.dwo
 
 # Database files - keep private
 *.db
@@ -35,5 +56,9 @@ compile_commands.json
 *.bak
 *.swp
 
-# IDE files
-.vscode/
+# vcpkg
+vcpkg_installed/
+
+# Test output and cache
+Testing/
+.cache/
