@@ -1,0 +1,39 @@
+# Qt Creator
+.qtcreator/
+*.user
+*.user.*
+
+# Build directories
+build/
+build-*/
+Build/
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+install_manifest.txt
+compile_commands.json
+
+# Compiled files
+*.o
+*.obj
+*.dll
+*.exe
+*.a
+*.lib
+
+# Database files - keep private
+*.db
+*.sqlite
+*.sqlite3
+
+# Temporary files
+*.log
+*.tmp
+*.bak
+*.swp
+
+# IDE files
+.vscode/
